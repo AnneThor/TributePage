@@ -1,0 +1,117 @@
+html {
+  font-size: 10px;
+  background-color: #EFEFEF;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 2
+}
+
+p {
+  margin: 0px;
+}
+
+#main {
+  text-align: center;
+}
+
+#title {
+  text-shadow: 1px 1px #F5F5F5;
+}
+
+#portrait {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 60%;
+  width: auto;
+  max-width: 80%;
+  background: #F5F5F5;
+  border-radius: 8px;
+}
+
+#img-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#image {
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#img-caption {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.intro-quote {
+  display: block;
+  margin: auto;
+  max-height: 15%;
+}
+
+#tribute-info{
+}
+
+#tribute-link {
+    color: rgba(0,0,0,.8);
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    color: rgba(180,0,60,.8);
+    cursor: pointer;
+  }
+
+ul {
+  max-width: 60%;
+  margin: auto 20%;
+  text-align: left;
+  line-height: 1.2;
+}
+
+blockquote {
+  font-style: italic;
+
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3.25rem;
+    text-shadow:   text-shadow: 1px 1px #F5F5F5;;
+  }
+
+  ul {
+    max-width: 80%;
+    line-height: 1.5;
+  }
+}
