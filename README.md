@@ -7,5 +7,7 @@ Live version:
 ------------------------------------------------------------------------
 
 PROJECT TITLE: TributePage
+
 VERSION or DATE: 1.0 [September 19, 2020]
+
 AUTHORS: Anne Thorsteinson
